@@ -1,0 +1,40 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+span {
+  display: inline-block;
+  min-width: 36px;
+}
+
+.timer {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
